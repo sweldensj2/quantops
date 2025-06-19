@@ -1,0 +1,27 @@
+# Core Data Science
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Financial Data
+yfinance==0.2.38
+
+# Dashboarding
+streamlit==1.35.0
+
+# Optional: Time Series, Stats, and Models
+statsmodels==0.14.2
+scipy==1.13.1
+
+# Infrastructure & Dev Tools
+python-dotenv==1.0.1
+requests==2.31.0
+
+# Optional: ML/AI frameworks if you go deeper later
+# tensorflow==2.16.1
+# torch==2.3.0
+
+# Optional: Add tests later
+pytest==8.2.1

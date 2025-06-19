@@ -41,3 +41,36 @@ git clone https://github.com/jsweldens/quantops.git
 cd quantops
 pip install -r requirements.txt
 streamlit run dashboard/app.py
+
+### 📅 **Sprint: June 18–25, 2025**
+
+#### ✅ Setup & Infra
+- [X] Create private or public GitHub repo: `quantops`
+- [ ] Set up project structure with folders: `src`, `dashboard`, `notebooks`
+- [ ] Add virtual environment and `requirements.txt` with:
+  - `pandas`, `numpy`, `yfinance`, `scikit-learn`, `streamlit`, `matplotlib`
+
+#### ✅ Data & Portfolio Logic
+- [ ] Write `data_ingestion.py` to fetch daily stock prices (e.g., `AAPL`, `SPY`, `MSFT`)
+- [ ] Implement `portfolio.py`:
+  - basic portfolio constructor with weights
+  - rolling returns, allocation over time
+- [ ] Create static CSV of 3-5 tickers and weights to test with
+
+#### ✅ Risk & ML Prototyping
+- [ ] In `risk_metrics.py`, compute:
+  - rolling volatility
+  - rolling Sharpe ratio
+  - max drawdown
+- [ ] In `ml_models.py`, prototype Isolation Forest or rolling Z-score
+
+#### ✅ UI & Dashboard
+- [ ] Start `dashboard/app.py` in Streamlit:
+  - sidebar for user input (ticker list, dates)
+  - line chart of portfolio value
+  - table of key metrics
+
+#### ✅ Admin
+- [ ] Write short `README.md`
+- [ ] Add `.gitignore`, `LICENSE`, and initial commit
+- [ ] Bonus: Write 1–2 unit tests in `tests/`
